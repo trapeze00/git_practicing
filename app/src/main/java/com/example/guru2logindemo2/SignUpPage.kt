@@ -14,9 +14,5 @@ class SignUpPage : AppCompatActivity() {
         setContentView(R.layout.activity_sign_up_page)
 
         btnSignUpSuccess=findViewById<Button>(R.id.btnSignUpSuccess)
-
-        btnSignUpSuccess.setOnClickListener {
-            val intent =Intent(this,MainActivity::class.java)
-        }
     }
 }
